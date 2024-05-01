@@ -1,20 +1,12 @@
 import { Menu } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import ZapifyLogo from "./logo";
 
 const Navbar = () => {
   return (
     <header className="fixed left-0 right-0 z-[100] flex items-center justify-between border-b-[1px] border-neutral-900 bg-black/40 px-6 py-5 backdrop-blur-lg">
       <aside className="flex items-center">
-        <p className="text-2xl font-semibold">Zapif</p>
-        <Image
-          src={"/zap.png"}
-          alt="zapify-log"
-          width={215}
-          height={402}
-          className="h-6 w-4"
-        />
+        <ZapifyLogo />
       </aside>
       <nav className="hidden shrink-0 md:flex">
         <ul className="flex gap-3 lg:gap-6">
@@ -48,7 +40,7 @@ const Navbar = () => {
             Border Magic
           </span>
         </Link>
-        <Menu className="md:hidden h-8 w-8"/>
+        <Menu className="h-8 w-8 md:hidden" />
       </aside>
     </header>
   );

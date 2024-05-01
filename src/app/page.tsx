@@ -23,12 +23,12 @@ const Home = () => {
                   size={"lg"}
                   className="group mb-8 flex w-full items-center justify-center gap-4 rounded-full border-t-2 border-[#4D4D4D] bg-[#1F1F1F] p-8 text-2xl transition-all duration-500 hover:bg-white hover:shadow-xl hover:shadow-neutral-500 sm:w-fit md:mb-0"
                 >
-                  <span className="goup-hover:to-black bg-gradient-to-r from-neutral-500 to-neutral-600 bg-clip-text  font-sans text-transparent group-hover:bg-gradient-to-r group-hover:from-black md:text-center">
+                  <span className="bg-gradient-to-r from-neutral-500 to-neutral-600 bg-clip-text font-sans  text-transparent group-hover:bg-gradient-to-r group-hover:from-black group-hover:to-black md:text-center">
                     Start For Free Today
                   </span>
                 </Button>
                 <h1 className="bg-gradient-to-b from-white  to-neutral-600 bg-clip-text font-sans text-5xl font-bold text-transparent md:text-8xl">
-                  Automate Your Work With Fuzzie
+                  Automate Your Work With Zapify
                 </h1>
               </div>
             }
@@ -49,9 +49,9 @@ const Home = () => {
 
       <section className="mt-[-500px]">
         <LampComponent />
-        <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72">
+        <div className="-mt-72 flex flex-col flex-wrap items-center justify-center gap-8 md:flex-row">
           <CardContainer className="inter-var ">
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
+            <CardBody className="group/card relative h-auto  w-full rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] md:!w-[350px]">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white "
@@ -61,7 +61,7 @@ const Home = () => {
               </CardItem>
               <CardItem
                 translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                className="mt-2 max-w-sm text-sm text-neutral-500 dark:text-neutral-300"
               >
                 Get a glimpse of what our software is capable of. Just a heads
                 up {"you'll"} never leave us after this!
@@ -79,18 +79,18 @@ const Home = () => {
                   </li>
                 </ul>
               </CardItem>
-              <div className="flex justify-between items-center mt-8">
+              <div className="mt-8 flex items-center justify-between">
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="rounded-xl px-4 py-2 text-xs font-normal dark:text-white"
                 >
                   Try now →
                 </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="rounded-xl bg-black px-4 py-2 text-xs font-bold text-white dark:bg-white dark:text-black"
                 >
                   Get Started Now
                 </CardItem>
@@ -98,7 +98,7 @@ const Home = () => {
             </CardBody>
           </CardContainer>
           <CardContainer className="inter-var ">
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-[#E2CBFF] border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
+            <CardBody className="group/card relative h-auto  w-full rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-[#E2CBFF] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] md:!w-[350px]">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white "
@@ -108,7 +108,7 @@ const Home = () => {
               </CardItem>
               <CardItem
                 translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                className="mt-2 max-w-sm text-sm text-neutral-500 dark:text-neutral-300"
               >
                 Get a glimpse of what our software is capable of. Just a heads
                 up {"you'll"} never leave us after this!
@@ -126,18 +126,18 @@ const Home = () => {
                   </li>
                 </ul>
               </CardItem>
-              <div className="flex justify-between items-center mt-8">
+              <div className="mt-8 flex items-center justify-between">
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="rounded-xl px-4 py-2 text-xs font-normal dark:text-white"
                 >
                   Try now →
                 </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="rounded-xl bg-black px-4 py-2 text-xs font-bold text-white dark:bg-white dark:text-black"
                 >
                   Get Started Now
                 </CardItem>
@@ -145,7 +145,7 @@ const Home = () => {
             </CardBody>
           </CardContainer>
           <CardContainer className="inter-var ">
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-full md:!w-[350px] h-auto rounded-xl p-6 border">
+            <CardBody className="group/card relative h-auto  w-full rounded-xl border border-black/[0.1] bg-gray-50 p-6 dark:border-white/[0.2] dark:bg-black dark:hover:shadow-2xl dark:hover:shadow-neutral-500/[0.1] md:!w-[350px]">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white "
@@ -155,7 +155,7 @@ const Home = () => {
               </CardItem>
               <CardItem
                 translateZ="60"
-                className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                className="mt-2 max-w-sm text-sm text-neutral-500 dark:text-neutral-300"
               >
                 Get a glimpse of what our software is capable of. Just a heads
                 up {"you'll"} never leave us after this!
@@ -173,18 +173,18 @@ const Home = () => {
                   </li>
                 </ul>
               </CardItem>
-              <div className="flex justify-between items-center mt-8">
+              <div className="mt-8 flex items-center justify-between">
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+                  className="rounded-xl px-4 py-2 text-xs font-normal dark:text-white"
                 >
                   Try now →
                 </CardItem>
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                  className="rounded-xl bg-black px-4 py-2 text-xs font-bold text-white dark:bg-white dark:text-black"
                 >
                   Get Started Now
                 </CardItem>
