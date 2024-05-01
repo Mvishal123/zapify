@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { clients, products } from "@/lib/constants";
 import { InfiniteMovingCards } from "@/components/global/infinite-moving-card";
 import { HeroParallax } from "@/components/global/connect-parallax";
-import { LampComponent } from "./lamp";
+import { LampComponent } from "../components/global/lamp";
 import { CardBody, CardContainer, CardItem } from "../../card-container";
 import { CheckIcon } from "lucide-react";
 

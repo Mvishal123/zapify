@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const ZapifyLogo = () => {
+const ZapifyLogo = ({ className }: { className?: string }) => {
   return (
     <Link href="/" className="flex items-center">
-      <p className="text-2xl font-semibold">Zapif</p>
+      <p className={`font-semibold ${className ?? "text-2xl"}`}>Zapif</p>
       <Image
         src={"/zap.png"}
         alt="zapify-log"
